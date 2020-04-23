@@ -1,3 +1,4 @@
+require 'pry'
 class PigLatinizer
   attr_accessor :text
   def initialize(text)
@@ -6,6 +7,6 @@ class PigLatinizer
 
   def piglatinize
     text_array = text.to_a
-    
+
   end
 end
