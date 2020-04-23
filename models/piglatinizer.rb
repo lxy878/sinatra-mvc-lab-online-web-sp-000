@@ -28,7 +28,7 @@ class PigLatinizer
       # add 'ay'
       new_word += 'ay'
     end
-
+    fixed_text.join(' ')
   end
 end
 
