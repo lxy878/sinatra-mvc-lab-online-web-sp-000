@@ -11,11 +11,13 @@ class PigLatinizer
     a = text_array.first
     # find first vowel position
     vowel_index = a.index(/[aeiou]/)
+    last = a.size-1
     # if the first vowel is not 0
     if vowel_index.zero?
       # cut the position from 0 to position-1
       prefix = a[0..vowel_index-1]
       # add cut piece to the end of text
+      new_word = a[vowel_index..]
     # otherwise
     else
       # add 'w'
