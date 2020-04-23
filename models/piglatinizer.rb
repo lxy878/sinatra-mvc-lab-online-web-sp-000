@@ -23,7 +23,7 @@ class PigLatinizer
       # otherwise
       else
         # add 'w'
-        new_word = a+'w'
+        new_word = text+'w'
       end
       # add 'ay'
       new_word += 'ay'
