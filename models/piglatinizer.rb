@@ -1,6 +1,5 @@
 class PigLatinizer
-  attr_accessor :text
-
+  
   def piglatinize(text)
     text_array = text.split(' ')
 
