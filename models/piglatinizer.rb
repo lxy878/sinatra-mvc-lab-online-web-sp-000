@@ -17,7 +17,7 @@ class PigLatinizer
       # cut the position from 0 to position-1
       prefix = a[0..vowel_index-1]
       # add cut piece to the end of text
-      new_word = a[vowel_index..last]
+      new_word = a[vowel_index..last]+prefix
     # otherwise
     else
       # add 'w'
