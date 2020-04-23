@@ -24,7 +24,7 @@ class PigLatinizer
       # add 'w'
     end
     # add 'ay'
-    
+
     binding.pry
   end
 end
