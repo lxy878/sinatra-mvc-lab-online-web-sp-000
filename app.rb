@@ -5,5 +5,7 @@ class App < Sinatra::Base
 
   end
 
-  
+  post '/pigliatinize' do
+    
+  end
 end
