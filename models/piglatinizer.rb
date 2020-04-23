@@ -27,4 +27,4 @@ class PigLatinizer
   end
 end
 
-PigLatinizer.new.piglatinize("I")
+# PigLatinizer.new.piglatinize("I")
