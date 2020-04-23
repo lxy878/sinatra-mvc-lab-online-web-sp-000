@@ -11,7 +11,7 @@ class PigLatinizer
     a = text_array.first
     # find first vowel position
     vowel_index = a.index(/[aeiou]/)
-    last = a.size-1
+    last = a.length-1
     # if the first vowel is not 0
     if vowel_index.zero?
       # cut the position from 0 to position-1
