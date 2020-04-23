@@ -8,6 +8,6 @@ class PigLatinizer
 
   def piglatinize
     text_array = text.split(' ')
-
+    binding.pry
   end
 end
