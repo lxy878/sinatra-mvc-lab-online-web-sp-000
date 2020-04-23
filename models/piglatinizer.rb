@@ -13,7 +13,7 @@ class PigLatinizer
       # if the first vowel is not 0
         # cut the position from 0 to position-1
         # add cut piece to the end of text
-      add 'ay'
+      # add 'ay'
 
     end
     binding.pry
