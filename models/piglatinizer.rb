@@ -1,6 +1,6 @@
 class PigLatinizer
-
-  def initialize(texts)
-    @texts = texts
+  attr_accessor :
+  def initialize(text)
+    @text = text
   end
 end
