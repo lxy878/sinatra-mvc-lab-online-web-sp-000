@@ -8,24 +8,26 @@ class PigLatinizer
 
   def piglatinize
     text_array = text.split(' ')
-    a = text_array[2]
-    # find first vowel position
-    vowel_index = a.index(/[aeiou]/)
-    last = a.length-1
-    new_word = ""
-    # if the first vowel is not 0
-    if !vowel_index.zero?
-      # cut the position from 0 to position-1
-      prefix = a[0..vowel_index-1]
-      # add cut piece to the end of text
-      new_word = a[vowel_index..last]+prefix
-    # otherwise
-    else
-      # add 'w'
-      new_word = a+'w'
+    text_array.collect do |text|
+      a = text_array[2]
+      # find first vowel position
+      vowel_index = a.index(/[aeiou]/)
+      last = a.length-1
+      new_word = ""
+      # if the first vowel is not 0
+      if !vowel_index.zero?
+        # cut the position from 0 to position-1
+        prefix = a[0..vowel_index-1]
+        # add cut piece to the end of text
+        new_word = a[vowel_index..last]+prefix
+      # otherwise
+      else
+        # add 'w'
+        new_word = a+'w'
+      end
+      # add 'ay'
+      new_word += 'ay'
     end
-    # add 'ay'
-    new_word += 'ay'
     binding.pry
   end
 end
