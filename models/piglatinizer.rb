@@ -12,6 +12,7 @@ class PigLatinizer
     # find first vowel position
     vowel_index = a.index(/[aeiou]/)
     last = a.length-1
+    new_word = ""
     # if the first vowel is not 0
     if vowel_index.zero?
       # cut the position from 0 to position-1
@@ -21,8 +22,9 @@ class PigLatinizer
     # otherwise
     else
       # add 'w'
-    # add 'ay'
     end
+    # add 'ay'
+    
     binding.pry
   end
 end
