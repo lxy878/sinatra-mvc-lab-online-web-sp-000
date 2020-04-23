@@ -6,7 +6,7 @@ class PigLatinizer
 
     fixed_text = text_array.collect do |text|
       # find first vowel position
-      vowel_index = text.index(/[aeiou]/)
+      vowel_index = text.downcase.index(/[aeiou]/)
       last = text.length-1
       new_word = ""
       # if the first vowel is not 0
