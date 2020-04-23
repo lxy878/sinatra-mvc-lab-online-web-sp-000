@@ -1,7 +1,7 @@
 class PigLatinizer
   attr_accessor :text
 
-  def piglatinize
+  def piglatinize(text)
     text_array = text.split(' ')
 
     fixed_text =text_array.collect do |text|
