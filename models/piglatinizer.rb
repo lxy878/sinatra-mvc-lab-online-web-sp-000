@@ -7,7 +7,7 @@ class PigLatinizer
   end
 
   def piglatinize
-    text_array = text.to_a
+    text_array = text.split(' ')
 
   end
 end
