@@ -25,5 +25,3 @@ class PigLatinizer
     fixed_text.join(' ')
   end
 end
-
-# PigLatinizer.new.piglatinize("I")
