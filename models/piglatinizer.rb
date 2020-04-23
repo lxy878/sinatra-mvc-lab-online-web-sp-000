@@ -5,6 +5,6 @@ class PigLatinizer
   end
 
   def piglatinize
-    
+    text_array = text.to_a
   end
 end
