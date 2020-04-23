@@ -16,6 +16,7 @@ class PigLatinizer
         # cut the position from 0 to position-1
         # add cut piece to the end of text
       # otherwise
+      else
         # add 'w'
       # add 'ay'
       end
