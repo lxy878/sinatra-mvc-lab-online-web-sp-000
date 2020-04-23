@@ -1,5 +1,6 @@
+require 'pry'
 class PigLatinizer
-  
+
   def piglatinize(text)
     text_array = text.split(' ')
 
