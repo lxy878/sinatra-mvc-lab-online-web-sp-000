@@ -14,6 +14,7 @@ class PigLatinizer
     # if the first vowel is not 0
     if vowel_index.zero?
       # cut the position from 0 to position-1
+      prefix = a[0..vowel_index-1]
       # add cut piece to the end of text
     # otherwise
     else
