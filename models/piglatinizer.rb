@@ -9,7 +9,8 @@ class PigLatinizer
   def piglatinize
     text_array = text.split(' ')
     text_array.collect do |text|
-      
+      # find first vowel position
+      cut the position from 0 to position-1
     end
     binding.pry
   end
