@@ -8,6 +8,9 @@ class PigLatinizer
 
   def piglatinize
     text_array = text.split(' ')
+    text_array.collect do |text|
+      
+    end
     binding.pry
   end
 end
