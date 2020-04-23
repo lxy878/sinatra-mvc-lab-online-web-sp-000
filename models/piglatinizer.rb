@@ -8,6 +8,7 @@ class PigLatinizer
 
   def piglatinize
     text_array = text.split(' ')
+    
     fixed_text =text_array.collect do |text|
       a = text_array[2]
       # find first vowel position
